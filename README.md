@@ -1,1 +1,1 @@
-# Repository with examples of data structures
+# Repository with examples of data structures and algoritms
