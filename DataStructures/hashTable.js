@@ -10,7 +10,7 @@ class ListNode {
 class HashTable {
      constructor(capacity) {
           this.listNodes = []; // Массив связных списков
-          this.capacity = 4 || capacity; // Вместимость/Размер хэш таблицы
+          this.capacity = capacity || 4; // Вместимость/Размер хэш таблицы
 
           for (let i=0;i<capacity;i++) { // Инициализируем массив связных списков
                this.listNodes.push(null);
